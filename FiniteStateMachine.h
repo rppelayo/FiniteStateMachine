@@ -30,7 +30,7 @@
 #ifndef FINITESTATEMACHINE_H
 #define FINITESTATEMACHINE_H
 
-#include <WProgram.h>
+#include <Arduino.h>
 
 #define NO_ENTER (0)
 #define NO_UPDATE (0)
@@ -81,7 +81,7 @@ class FiniteStateMachine {
 
 /*
 || @changelog
-|| | 1.7 2010-03-08- Alexander Brevig : Fixed a bug, constructor ran update, thanks to René Pressé
+|| | 1.7 2010-03-08- Alexander Brevig : Fixed a bug, constructor ran update, thanks to RenÃ© PressÃ©
 || | 1.6 2010-03-08- Alexander Brevig : Added timeInCurrentState() , requested by sendhb
 || | 1.5 2009-11-29- Alexander Brevig : Fixed a bug, introduced by the below fix, thanks to Jon Hylands again...
 || | 1.4 2009-11-29- Alexander Brevig : Fixed a bug, enter gets triggered on the first state. Big thanks to Jon Hylands who pointed this out.
